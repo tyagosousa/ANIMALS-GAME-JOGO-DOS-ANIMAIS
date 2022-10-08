@@ -1,0 +1,37 @@
+print('____________________JOGO DOS ANIMAIS____________________')
+a = input("Você é vertebrado ou invertebrado? ")
+b = input('Você é uma ave, mamífero, inseto ou anelideo? ')
+c = input('Você é carnívoro, onívoro, herbívero ou hematofago? ')
+
+if a == 'vertebrado':
+  if b == 'ave':
+    if c == 'carnívoro':
+      print('Você é uma águia')
+if a == 'vertebrado':
+  if b == 'ave':
+    if c == 'onívoro':
+      print('Você é uma pomba')
+if a == 'vertebrado':
+  if b == 'mamífero':
+    if c == 'onívoro':
+      print('Você é um homem ♂️ ♀️')
+if a == 'vertebrado':
+  if b == 'mamífero':
+    if c == 'herbívoro':
+      print('Você é uma vaca')
+if a == 'invertebrado':
+  if b == 'inseto':
+    if c == 'hematofago':
+      print('Você é uma pulga')
+if a == 'invertebrado':
+  if b == 'inseto':
+    if c == 'herbívoro':
+      print('Você é uma lagarta')
+if a == 'invertebrado':
+  if b == 'anelideo':
+    if c == 'hematofago':
+      print('Você é um sanguessuga')
+if a == 'invertebrado':
+  if b == 'anelideo':
+    if c == 'onívoro':
+      print('Você é uma minhoca')
